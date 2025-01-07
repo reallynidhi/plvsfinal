@@ -1,39 +1,33 @@
 export const teamMembers = [
   {
     name: 'Juan Benet',
-    role: 'Global Leadership',
+    role: 'Venture Partner',
     image: 'juan.jpeg',
     linkedIn: 'https://www.linkedin.com/in/jbenetcs/',
   },
   {
     name: 'Molly Mackinlay',
-    role: 'Global Leadership',
+    role: 'Venture Partner',
     image: 'molly.jpeg',
     linkedIn: 'https://www.linkedin.com/in/mollymckinlay/',
   },
   {
     name: 'Brad Holden',
-    role: 'Global Leadership',
+    role: 'Venture Partner',
     image: 'brad.jpeg',
     linkedIn: 'https://www.linkedin.com/in/bradholden/',
   },
   {
     name: 'Chris Brocoum',
-    role: 'Global Leadership',
+    role: 'Venture Partner',
     image: 'chris.jpeg',
     linkedIn: 'https://www.linkedin.com/in/chrisbrocoum/',
   },
   {
     name: 'Colin Evran',
-    role: 'Global Leadership',
+    role: 'Venture Partner',
     image: 'colin.jpeg',
     linkedIn: 'https://www.linkedin.com/in/colinevran/',
-  },
-  {
-    name: 'Catherine Hammack',
-    role: 'Legal Leadership',
-    image: 'catherine.jpeg',
-    linkedIn: 'https://www.linkedin.com/in/catherinehammack/',
   },
   {
     name: 'Patrick Kim',
@@ -49,7 +43,7 @@ export const teamMembers = [
   },
   {
     name: 'Nidhi Soni',
-    role: 'Operations Leadership',
+    role: 'Operations & Strategy Leadership',
     image: 'nidhi.jpeg',
     linkedIn: 'https://www.linkedin.com/in/reallynidhi/',
   },
