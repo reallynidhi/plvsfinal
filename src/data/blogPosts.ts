@@ -1,12 +1,48 @@
 export const blogPosts = [
   {
-    date: 'December 23, 2024',
-    author: 'Protocol Labs Venture Studio',
+    date: "December 23, 2024",
+    author: "Protocol Labs Venture Studio",
     //role: 'Protocol ',
-    title: '2024: A Breakthrough Year for PLVS',
+    title: "2024: A Breakthrough Year for PLVS",
     excerpt:
       "As we close out 2024, we're excited excited to reflect on a year filled with innovation, growth, and groundbreaking contributions to the decentralized internet ecosystem...",
-    url: 'https://drive.google.com/file/d/1PgAnxBDh1c_6HSfVyUcLB7Juf3SU5Ob2/view?usp=drive_link',
+    url: "https://drive.google.com/file/d/1PgAnxBDh1c_6HSfVyUcLB7Juf3SU5Ob2/view?usp=drive_link",
+  },
+  {
+    date: "December 23, 2024",
+    author: "Protocol Labs Venture Studio",
+    //role: 'Protocol ',
+    title: "2024: A Breakthrough Year for PLVS",
+    excerpt:
+      "As we close out 2024, we're excited excited to reflect on a year filled with innovation, growth, and groundbreaking contributions to the decentralized internet ecosystem...",
+    url: "https://drive.google.com/file/d/1PgAnxBDh1c_6HSfVyUcLB7Juf3SU5Ob2/view?usp=drive_link",
+  },
+  {
+    date: "December 23, 2024",
+    author: "Protocol Labs Venture Studio",
+    //role: 'Protocol ',
+    title: "2024: A Breakthrough Year for PLVS",
+    excerpt:
+      "As we close out 2024, we're excited excited to reflect on a year filled with innovation, growth, and groundbreaking contributions to the decentralized internet ecosystem...",
+    url: "https://drive.google.com/file/d/1PgAnxBDh1c_6HSfVyUcLB7Juf3SU5Ob2/view?usp=drive_link",
+  },
+  {
+    date: "December 23, 2024",
+    author: "Protocol Labs Venture Studio",
+    //role: 'Protocol ',
+    title: "2024: A Breakthrough Year for PLVS",
+    excerpt:
+      "As we close out 2024, we're excited excited to reflect on a year filled with innovation, growth, and groundbreaking contributions to the decentralized internet ecosystem...",
+    url: "https://drive.google.com/file/d/1PgAnxBDh1c_6HSfVyUcLB7Juf3SU5Ob2/view?usp=drive_link",
+  },
+  {
+    date: "December 23, 2024",
+    author: "Protocol Labs Venture Studio",
+    //role: 'Protocol ',
+    title: "2024: A Breakthrough Year for PLVS",
+    excerpt:
+      "As we close out 2024, we're excited excited to reflect on a year filled with innovation, growth, and groundbreaking contributions to the decentralized internet ecosystem...",
+    url: "https://drive.google.com/file/d/1PgAnxBDh1c_6HSfVyUcLB7Juf3SU5Ob2/view?usp=drive_link",
   },
   /*{
     date: 'JANUARY 16, 2024',

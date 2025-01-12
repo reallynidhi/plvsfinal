@@ -24,25 +24,25 @@ const Navbar = () => {
       </Link>
       <div className="flex items-center gap-6">
         <NavLink
-          to="/portfolio"
+          to="portfolio"
           id="portfolio"
-          onClick={handleClick}
+          // onClick={handleClick}
           isActive={pathname.includes("portfolio")}
         >
           Portfolio
         </NavLink>
         <NavLink
-          to="/blog"
+          to="/blogs"
           id="blog"
-          onClick={handleClick}
-          isActive={pathname.includes("blog")}
+          isActive={pathname.includes("blogs")}
+          newPage
         >
           Blog
         </NavLink>
         <NavLink
-          to="/people"
+          to="people"
           id="people"
-          onClick={handleClick}
+          // onClick={handleClick}
           isActive={pathname.includes("people")}
         >
           People
