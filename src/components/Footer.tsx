@@ -1,17 +1,25 @@
-import React from 'react';
+import React from "react";
+import { Logo } from "./Logo";
+import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="mt-20 py-8 px-8 border-t">
-      <div className="flex justify-between items-center">
-        <div className="text-2xl font-bold">PL/VS</div>
-        <div className="text-sm text-gray-500">
+    <footer className="mt-20 py-8 px-24 border-t">
+      <div className="flex flex-col justify-between  items-start">
+        <div className="w-12 mb-10">
+          <Logo />
+        </div>
+
+        <div className="text-sm text-gray-400 mb-2">
           © PROTOCOL LABS VENTURE STUDIO 2024
         </div>
         <div>
-          <a href="#" className="text-sm text-gray-500 hover:text-gray-700">
+          <Link
+            href="/disclosure"
+            className="text-sm text-gray-400 underline hover:text-gray-700"
+          >
             IMPORTANT DISCLOSURES
-          </a>
+          </Link>
         </div>
       </div>
     </footer>

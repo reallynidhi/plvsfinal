@@ -1,4 +1,3 @@
-import Layout from "@/components/Layout";
 import Blog from "@/sections/Blog";
 import HomeSection from "@/sections/Home";
 import People from "@/sections/People";
@@ -6,7 +5,7 @@ import Portfolio from "@/sections/Portfolio";
 
 export default function Home() {
   return (
-    <Layout>
+    <>
       <section id="home" className="min-h-screen">
         <HomeSection />
       </section>
@@ -19,6 +18,6 @@ export default function Home() {
       <section id="people" className="min-h-screen">
         <People />
       </section>
-    </Layout>
+    </>
   );
 }

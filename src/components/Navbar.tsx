@@ -16,9 +16,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 flex justify-between items-center px-8 py-4 bg-white z-50">
+    <nav className="sticky top-0 left-0 right-0 flex justify-between items-center px-12 bg-white z-50 py-12">
       <Link href="/" onClick={(e) => handleClick(e, "home")} aria-label="Home">
-        <Logo />
+        <div className="w-12">
+          <Logo />
+        </div>
       </Link>
       <div className="flex items-center gap-6">
         <NavLink
