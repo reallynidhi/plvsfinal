@@ -80,7 +80,8 @@ const components: MDXComponents = {
     <ul
       // className="text-gray-800 list-disc pl-5 space-y-1"
       style={{
-        listStylePosition: "inside",
+        // listStylePosition: "inside",
+
         listStyleType: "initial",
         // display: 'list-item',
       }}
@@ -89,14 +90,12 @@ const components: MDXComponents = {
   ),
   li: (props: ListItemProps) => (
     <li
-      style={
-        {
-          // paddingLeft: '1rem',
-          // listStylePosition: '-moz-initial',
-          // listStyleType: 'revert',
-          // display: 'inline-list-item',
-        }
-      }
+      style={{
+        marginLeft: "1rem",
+        // listStylePosition: '-moz-initial',
+        // listStyleType: 'revert',
+        // display: 'inline-list-item',
+      }}
       className="py-1"
       {...props}
     >

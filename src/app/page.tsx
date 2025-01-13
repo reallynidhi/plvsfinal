@@ -12,7 +12,7 @@ export default function Home() {
       <section id="portfolio" className="min-h-screen">
         <Portfolio />
       </section>
-      <section id="blog" className="min-h-screen">
+      <section id="blog">
         <Blog />
       </section>
       <section id="people" className="min-h-screen">

@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import React, { useState } from 'react';
-import { CopyIcon, CheckIcon } from '@radix-ui/react-icons';
+import React, { useState } from "react";
+import { CopyIcon, CheckIcon } from "@radix-ui/react-icons";
 
 const CopyCode = ({ code }: { code: string }) => {
   const [isCopied, setIsCopied] = useState(false);

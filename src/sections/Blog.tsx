@@ -3,11 +3,11 @@ import { blogPosts } from "../data/blogPosts";
 
 const Blog = () => {
   return (
-    <div className="min-h-screen pt-20">
+    <div className="pt-20">
       <div className="max-w-6xl mx-auto px-8">
         <h1 className="text-4xl font-bold mb-16 mt-12">BLOG</h1>
 
-        <div className="space-y-12">
+        <div>
           {blogPosts.map((post, index) => (
             <a
               key={index}
