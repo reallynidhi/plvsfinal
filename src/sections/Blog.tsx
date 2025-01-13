@@ -12,7 +12,7 @@ const Blog = () => {
             <a
               key={index}
               href={post.url}
-              target="_blank"
+              // target="_blank"
               rel="noopener noreferrer"
               className="block border-t pt-8 hover:bg-gray-50 transition-colors"
             >

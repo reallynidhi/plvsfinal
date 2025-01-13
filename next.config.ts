@@ -3,7 +3,10 @@ import createMDX from "@next/mdx";
 import remarkGfm from "remark-gfm";
 
 const nextConfig: NextConfig = {
-  pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
+  pageExtensions: ["mdx", "ts", "tsx"],
+  experimental: {
+    mdxRs: true,
+  },
 };
 
 const withMDX = createMDX({

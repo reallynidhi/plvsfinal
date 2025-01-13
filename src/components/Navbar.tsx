@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <nav className="sticky top-0 left-0 right-0 flex justify-between items-center px-12 bg-white z-50 py-12">
-      <Link href="/" onClick={(e) => handleClick(e, "home")} aria-label="Home">
+      <Link href="/#Home" aria-label="Home">
         <div className="w-12">
           <Logo />
         </div>

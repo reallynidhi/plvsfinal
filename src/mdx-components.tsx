@@ -4,6 +4,7 @@ import { nanoid } from "nanoid";
 import Link from "next/link";
 import type { MDXComponents } from "mdx/types";
 import { highlight } from "sugar-high";
+import CopyCode from "./components/CopyButton";
 
 type HeadingProps = ComponentPropsWithoutRef<"h1">;
 type ParagraphProps = ComponentPropsWithoutRef<"p">;
@@ -58,7 +59,7 @@ const components: MDXComponents = {
     <p
       className="leading-snug py-1"
       style={{
-        color: "#d4d4d8",
+        color: "#000000",
       }}
       {...props}
     />
@@ -130,6 +131,75 @@ const components: MDXComponents = {
       >
         {children}
       </a>
+    );
+  },
+  code: ({ className, children, ...props }: CodeProps) => {
+    const isCodeBlock = Boolean(className);
+    // const language = className?.replace('language-', '');
+
+    const codeString = children?.toString() || "";
+
+    if (isCodeBlock) {
+      // Triple-quoted code block styling
+      const highlightedCode = highlight(codeString);
+      return (
+        <div
+          className="relative rounded-lg px-4 py-2"
+          style={{
+            borderWidth: "1px",
+            backgroundColor: "#18181b",
+            borderColor: "#27272a",
+            margin: "1rem 0",
+            color: "#d4d4d8",
+          }}
+        >
+          {/* {language && (
+            <div className="absolute right-4 top-2 text-xs text-gray-500">
+              {language}
+            </div>
+          )} */}
+          <CopyCode code={codeString} />
+          <pre
+            style={{
+              overflowX: "auto",
+              whiteSpace: "pre",
+              textTransform: "none",
+              paddingTop: "0.1rem",
+            }}
+          >
+            <code
+              className="text-sm"
+              style={{
+                display: "block",
+                textOverflow: "ellipsis",
+                whiteSpace: "nowrap",
+                overflow: "hidden",
+                fontFamily: "revert",
+              }}
+              // biome-ignore lint/security/noDangerouslySetInnerHtml: <explanation>
+              dangerouslySetInnerHTML={{ __html: highlightedCode }}
+              {...props}
+            />
+          </pre>
+        </div>
+      );
+    }
+
+    // Single-quoted inline code styling
+    return (
+      <code
+        style={{
+          backgroundColor: "#27272a",
+          color: "#d6336c",
+          borderRadius: "4px",
+          padding: "0.2rem 0.4rem",
+          fontSize: "0.875rem",
+          fontFamily: "monospace",
+        }}
+        {...props}
+      >
+        {children}
+      </code>
     );
   },
   Table: ({ data }: { data: { headers: string[]; rows: string[][] } }) => (
