@@ -60,7 +60,7 @@ export const portfolioCompanies = [
     logo: 'toothbrush.svg',
     description:
       'A decentralized application leveraging Filecoin, that maximizes device capacity to share and store content within a group.',
-    url: 'www.thephotobase.com',
+    url: 'https://www.thephotobase.com/',
   },
   {
     name: 'POLN',

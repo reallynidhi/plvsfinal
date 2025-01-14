@@ -14,7 +14,7 @@ export const teamMembers = [
   {
     name: 'Brad Holden',
     role: 'Venture Partner',
-    image: 'brad.jpeg',
+    image: 'brad.jpg',
     linkedIn: 'https://www.linkedin.com/in/bradholden/',
   },
   {
@@ -32,7 +32,7 @@ export const teamMembers = [
   {
     name: 'Patrick Kim',
     role: 'Finance Leadership',
-    image: 'patrick.jpeg',
+    image: 'patrick.png',
     linkedIn: 'https://www.linkedin.com/in/patrickkim/',
   },
   {
