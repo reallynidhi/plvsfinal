@@ -18,7 +18,7 @@ const Navbar = () => {
     element?.scrollIntoView({ behavior: "smooth" });
   };
 
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   return (
     <nav className="sticky top-0 left-0 right-0 flex justify-between items-center px-12 bg-white z-50 py-6 md:py-12">
@@ -49,7 +49,7 @@ const Navbar = () => {
         >
           People
         </NavLink>
-        
+
         <NavLink
           to="/blogs"
           id="blog"
@@ -58,7 +58,7 @@ const Navbar = () => {
         >
           Blog
         </NavLink>
-        
+
         <a
           href="https://x.com/plventurestudio"
           target="_blank"
