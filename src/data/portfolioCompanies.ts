@@ -17,14 +17,14 @@ export const portfolioCompanies = [
     name: 'IPC BTC',
     logo: 'bsl.svg',
     description:
-      "InterPlanetary Consensus BTC bridges the Bitcoin network with Filecoin's storage capabilities, enabling seamless cross-chain collaboration.",
+      "InterPlanetary Consensus or IPC BTC bridges the Bitcoin network with Filecoin's storage capabilities, enabling seamless cross-chain collaboration.",
     url: 'https://protocol.ai',
   },
   {
     name: 'Nova Energy',
     logo: 'nova.svg',
     description:
-      'Designed to address the opacity and uncertainty surrounding environmental claims, our EVP is a robust framework that validates and quantifies the sustainability practices of digital operations.',
+      'Nova Energy is designed to address the opacity and uncertainty surrounding environmental claims, our EVP is a robust framework that validates and quantifies the sustainability practices of digital operations.',
     url: 'https://www.novaenergy.ai/',
   },
   {
@@ -38,7 +38,7 @@ export const portfolioCompanies = [
     name: 'Devonian',
     logo: 'devonian.svg',
     description:
-      'Devonian Systems is developing tools to revolutionize how we discover and apply new ideas, particularly in addressing the global challenges we face today.By introducing tools like Cherty, we aim to enhance transparency and improve human-machine collaboration in solving complex problems.',
+      'Devonian Systems is developing tools to revolutionize how we discover and apply new ideas, particularly in addressing the global challenges we face today. By introducing tools like Cherty, we aim to enhance transparency and improve human-machine collaboration in solving complex problems.',
     url: 'https://devonian.ai/',
   },
   {
@@ -52,28 +52,28 @@ export const portfolioCompanies = [
     name: 'Sodal',
     logo: 'sodal.svg',
     description:
-      'We’re building an open platform that increases trust and productivity by clarifying identity, streamlining collaboration, and optimizing resource usage. Sodal’s first product, Cartographer, is an identity and access management solution for decentralized teams.',
+      'Sodal is building an open platform that increases trust and productivity by clarifying identity, streamlining collaboration, and optimizing resource usage. Sodal’s first product, Cartographer, is an identity and access management solution for decentralized teams.',
     url: 'https://sodal.io/',
   },
   {
     name: 'Toothbrush',
     logo: 'toothbrush.svg',
     description:
-      'A decentralized application leveraging Filecoin, that maximizes device capacity to share and store content within a group.',
+      'Toothbrush is a decentralized application leveraging Filecoin, that maximizes device capacity to share and store content within a group.',
     url: 'https://www.thephotobase.com/',
   },
   {
     name: 'POLN',
     logo: 'poln1.svg',
     description:
-      'Automating perpetual publishing models, Perpetual Press empowers creators to monetize their work sustainably with decentralized platforms.',
+      'POLN empowers creators to monetize their work sustainably with decentralized platforms.',
     url: 'https://www.getpoln.com/landing/home',
   },
   {
     name: 'Storacha',
     logo: 'storacha.svg',
     description:
-      'Focused on high-speed decentralized caching, Storacha enhances the performance of distributed applications globally.',
+      'Storacha is focused on high-speed decentralized caching, Storacha enhances the performance of distributed applications globally.',
     url: 'https://storacha.network/',
   },
 ];

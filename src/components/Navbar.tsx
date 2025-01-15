@@ -32,14 +32,6 @@ const Navbar = () => {
           Portfolio
         </NavLink>
         <NavLink
-          to="/blogs"
-          id="blog"
-          isActive={pathname.includes("blogs")}
-          newPage
-        >
-          Blog
-        </NavLink>
-        <NavLink
           to="people"
           id="people"
           // onClick={handleClick}
@@ -47,6 +39,16 @@ const Navbar = () => {
         >
           People
         </NavLink>
+        
+        <NavLink
+          to="/blogs"
+          id="blog"
+          isActive={pathname.includes("blogs")}
+          newPage
+        >
+          Blog
+        </NavLink>
+        
         <a
           href="https://x.com/plventurestudio"
           target="_blank"
