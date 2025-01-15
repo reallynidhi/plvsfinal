@@ -11,7 +11,8 @@ const HomeSection = () => {
         <div className="mb-20">
           <div className="relative w-full bg-white rounded-lg p-4">
             <img
-              src="/download.svg"
+              src="/rd.png"
+             // src="/download.svg"
               alt="Research & Development Pipeline"
               className="w-full h-auto"
             />
