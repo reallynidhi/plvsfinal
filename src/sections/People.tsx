@@ -1,5 +1,6 @@
 import React from "react";
 import { teamMembers } from "../data/teamMembers";
+import Image from "next/image";
 
 const People = () => {
   return (
@@ -17,10 +18,12 @@ const People = () => {
               className="group"
             >
               <div className="aspect-square mb-4 overflow-hidden">
-                <img
+                <Image
                   src={`/people/${member.image}`}
                   alt={member.name}
                   className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all"
+                  height={400}
+                  width={400}
                 />
               </div>
               <h3 className="font-bold">{member.name}</h3>

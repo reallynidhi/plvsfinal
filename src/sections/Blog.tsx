@@ -5,7 +5,11 @@ const Blog = () => {
   return (
     <div>
       <div className="max-w-6xl mx-auto px-8">
-        <h1 className="text-4xl font-bold mb-16 mt-12">BLOG</h1>
+        <h1 className="text-4xl font-bold mb-16 mt-12">
+          The latest from
+          <br />
+          Protocol Labs Venture Studio
+        </h1>
 
         <div>
           {blogPosts.map((post, index) => (

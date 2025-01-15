@@ -1,6 +1,6 @@
 export const blogPosts = [
   {
-    date: "December 23, 2024",
+    date: "January 01, 2025",
     author: "Protocol Labs Venture Studio",
     //role: 'Protocol ',
     title: "2024: A Breakthrough Year for PLVS",
