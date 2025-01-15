@@ -22,7 +22,7 @@ const Navbar = () => {
 
   return (
     <nav className="sticky top-0 left-0 right-0 flex justify-between items-center px-12 bg-white z-50 py-6 md:py-12">
-      <Link href="/#Home" aria-label="Home">
+      <Link href="/" aria-label="Home">
         <div className="w-12">
           <Logo />
         </div>
