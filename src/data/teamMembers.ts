@@ -9,13 +9,13 @@ export const teamMembers = [
     name: 'Molly Mackinlay',
     role: 'Venture Partner',
     image: 'molly.jpeg',
-    linkedIn: 'https://www.linkedin.com/in/mollymckinlay/',
+    linkedIn: 'https://www.linkedin.com/in/mollymackinlay/',
   },
   {
     name: 'Brad Holden',
     role: 'Venture Partner',
     image: 'brad.jpg',
-    linkedIn: 'https://www.linkedin.com/in/bradholden/',
+    linkedIn: 'https://www.linkedin.com/in/bradpholden/',
   },
   {
     name: 'Chris Brocoum',
@@ -33,13 +33,13 @@ export const teamMembers = [
     name: 'Patrick Kim',
     role: 'Finance Leadership',
     image: 'patrick.png',
-    linkedIn: 'https://www.linkedin.com/in/patrickkim/',
+    linkedIn: 'https://www.linkedin.com/in/patrick-kim-406981109/',
   },
   {
     name: 'Rachel Garcia',
     role: 'Operations Leadership',
     image: 'rachel.jpeg',
-    linkedIn: 'https://www.linkedin.com/in/rachelgarcia/',
+    linkedIn: 'https://www.linkedin.com/in/rachelmgarcia/',
   },
   {
     name: 'Nidhi Soni',

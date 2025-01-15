@@ -17,7 +17,7 @@ export const portfolioCompanies = [
     name: 'IPC BTC',
     logo: 'bsl.svg',
     description:
-      "InterPlanetary Consensus or IPC BTC bridges the Bitcoin network with Filecoin's storage capabilities, enabling seamless cross-chain collaboration.",
+      "InterPlanetary Consensus (IPC) BTC bridges the Bitcoin network with Filecoin's storage capabilities, enabling seamless cross-chain collaboration.",
     url: 'https://protocol.ai',
   },
   {
