@@ -4,7 +4,7 @@ const HomeSection = () => {
   return (
     <div className="pt-12">
       <div className="max-w-6xl mx-auto px-8">
-        <h1 className="text-6xl font-bold mb-16">
+        <h1 className="text-5xl md:text-6xl font-bold mb-16">
           We build startups driving breakthroughs in computing
         </h1>
 
