@@ -5,7 +5,7 @@ interface NavLinkProps {
   id: string;
   children: React.ReactNode;
   isActive: boolean;
-  onClick?: (e: React.MouseEvent<HTMLAnchorElement>, id: string) => void;
+  onClick?: () => void;
   newPage?: boolean;
 }
 
@@ -20,7 +20,7 @@ export const NavLink: React.FC<NavLinkProps> = ({
   return (
     <Link
       href={newPage ? to : `/#${to}`}
-      onClick={(e) => onClick?.(e, id)}
+      onClick={() => onClick?.()}
       className={`hover:text-gray-600 transition-colors ${
         isActive ? "font-bold" : ""
       }`}

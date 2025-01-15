@@ -12,13 +12,11 @@ import { cn } from "@/utils";
 const Navbar = () => {
   const pathname = usePathname();
 
-  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
-    e.preventDefault();
-    const element = document.getElementById(id);
-    element?.scrollIntoView({ behavior: "smooth" });
-  };
-
   const [isOpen, setIsOpen] = useState(true);
+
+  const handleClick = () => {
+    setIsOpen((prev) => !prev);
+  };
 
   return (
     <nav className="sticky top-0 left-0 right-0 flex justify-between items-center px-12 bg-white z-50 py-6 md:py-12">
@@ -36,7 +34,7 @@ const Navbar = () => {
         <NavLink
           to="portfolio"
           id="portfolio"
-          // onClick={handleClick}
+          onClick={handleClick}
           isActive={pathname.includes("portfolio")}
         >
           Portfolio
@@ -44,7 +42,7 @@ const Navbar = () => {
         <NavLink
           to="people"
           id="people"
-          // onClick={handleClick}
+          onClick={handleClick}
           isActive={pathname.includes("people")}
         >
           People
@@ -54,6 +52,7 @@ const Navbar = () => {
           to="/blogs"
           id="blog"
           isActive={pathname.includes("blogs")}
+          onClick={handleClick}
           newPage
         >
           Blog
