@@ -27,7 +27,7 @@ const Navbar = () => {
       </Link>
       <div
         className={cn(
-          "flex items-center gap-6 flex-col md:flex-row absolute md:relative w-full md:w-auto bg-white/40 backdrop-blur-md left-0 bottom-0 translate-y-full md:translate-y-0 py-10 md:py-0 transition ease-in-out delay-500",
+          "flex items-center gap-6 flex-col md:flex-row absolute md:relative w-full md:w-auto bg-white/40 backdrop-blur-md left-0 bottom-0 translate-y-full md:translate-y-0 py-10 md:py-0 transition ease-in-out",
           isOpen ? "-translate-y-full" : "translate-y-full"
         )}
       >
