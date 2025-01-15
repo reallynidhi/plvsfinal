@@ -6,9 +6,7 @@ const Blog = () => {
     <div>
       <div className="max-w-6xl mx-auto px-8">
         <h1 className="text-4xl font-bold mb-16 mt-12">
-          The latest from
-          <br />
-          Protocol Labs Venture Studio
+          The latest from PL Venture Studio
         </h1>
 
         <div>
@@ -20,12 +18,17 @@ const Blog = () => {
               rel="noopener noreferrer"
               className="block border-t pt-8 hover:bg-gray-50 transition-colors"
             >
-              <div className="text-sm text-gray-500 mb-2">{post.date}</div>
-              <div className="mb-4">
-                <div className="font-bold">{post.author}</div>
-                {/* <div className="text-sm text-gray-600">{post.role}</div> */}
-              </div>
+             
               <h2 className="text-2xl font-bold mb-4">{post.title}</h2>
+            
+              <div className="mb-4">
+              <div className="text-sm text-gray-500 mb-2">
+              <span className="font-bold">{post.author}</span> | {post.date}
+              </div>
+            </div>
+
+              
+              
               <p className="text-gray-600">{post.excerpt}</p>
             </a>
           ))}

@@ -1,11 +1,11 @@
 export const blogPosts = [
   {
     date: "January 01, 2025",
-    author: "Protocol Labs Venture Studio",
+    author: "PLVS",
     //role: 'Protocol ',
     title: "2024: A Breakthrough Year for PLVS",
     excerpt:
-      "As we close out 2024, we're excited excited to reflect on a year filled with innovation, growth, and groundbreaking contributions to the decentralized internet ecosystem...",
+      "As we close out 2024 and look forward to 2025, we at Protocol Labs Venture Studio (PLVS) are excited to welcome our latest cohort of badass founders...",
     url: "/blog/a-breakthrough-year-for-pl-venture-studio",
   },
   /*{
