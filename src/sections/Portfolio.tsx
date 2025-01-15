@@ -1,9 +1,9 @@
-import React from 'react';
-import { portfolioCompanies } from '../data/portfolioCompanies';
+import React from "react";
+import { portfolioCompanies } from "../data/portfolioCompanies";
 
 const Portfolio = () => {
   return (
-    <div className="min-h-screen pt-20">
+    <div className="pt-20">
       <div className="max-w-6xl mx-auto px-8">
         <h1 className="text-4xl font-bold mb-16 mt-12">PORTFOLIO</h1>
 
@@ -18,7 +18,7 @@ const Portfolio = () => {
             >
               <div className="h-16 mb-4">
                 <img
-                  src={`/company/${company.logo || 'pl.png'}`}
+                  src={`/company/${company.logo || "pl.png"}`}
                   alt={company.name}
                   className="h-full object-contain"
                 />

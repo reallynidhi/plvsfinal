@@ -1,9 +1,9 @@
-import React from 'react';
-import { teamMembers } from '../data/teamMembers';
+import React from "react";
+import { teamMembers } from "../data/teamMembers";
 
 const People = () => {
   return (
-    <div className="min-h-screen pt-20">
+    <div className=" pt-20">
       <div className="max-w-6xl mx-auto px-8">
         <h1 className="text-4xl font-bold mb-16 mt-12">PEOPLE</h1>
 

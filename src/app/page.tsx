@@ -6,16 +6,13 @@ import Portfolio from "@/sections/Portfolio";
 export default function Home() {
   return (
     <>
-      <section id="home" className="min-h-screen">
+      <section id="home">
         <HomeSection />
       </section>
-      <section id="portfolio" className="min-h-screen">
+      <section id="portfolio">
         <Portfolio />
       </section>
-      <section id="blog">
-        <Blog />
-      </section>
-      <section id="people" className="min-h-screen">
+      <section id="people">
         <People />
       </section>
     </>

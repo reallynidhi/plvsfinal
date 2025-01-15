@@ -2,7 +2,7 @@ import React from "react";
 
 const HomeSection = () => {
   return (
-    <div className="min-h-screen pt-12">
+    <div className="pt-12">
       <div className="max-w-6xl mx-auto px-8">
         <h1 className="text-6xl font-bold mb-16">
           We build startups driving breakthroughs in computing

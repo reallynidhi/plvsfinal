@@ -3,7 +3,7 @@ import { blogPosts } from "../data/blogPosts";
 
 const Blog = () => {
   return (
-    <div className="pt-20">
+    <div>
       <div className="max-w-6xl mx-auto px-8">
         <h1 className="text-4xl font-bold mb-16 mt-12">BLOG</h1>
 
