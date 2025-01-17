@@ -18,7 +18,7 @@ export const portfolioCompanies = [
     logo: 'bsl.svg',
     description:
       "InterPlanetary Consensus (IPC) BTC bridges the Bitcoin network with Filecoin's storage capabilities, enabling seamless cross-chain collaboration.",
-    url: 'https://protocol.ai',
+   // url: 'https://protocol.ai',
   },
   {
     name: 'Nova Energy',
