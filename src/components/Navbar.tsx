@@ -6,17 +6,33 @@ import { Logo } from "./Logo";
 import { NavLink } from "./NavLink";
 import Link from "next/link";
 import { HamburgerMenuIcon } from "@radix-ui/react-icons";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { cn } from "@/utils";
 
 const Navbar = () => {
   const pathname = usePathname();
 
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(true); //// Start with the menu closed by default
 
   const handleClick = () => {
     setIsOpen((prev) => !prev);
   };
+
+  // Close the menu on scroll
+  useEffect(() => {
+    const handleScroll = () => {
+      if (!isOpen) {
+        setIsOpen(true); // Close the menu if it's open
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll); // Cleanup listener
+    };
+  }, [isOpen]);
+
 
   return (
     <nav className="sticky top-0 left-0 right-0 flex justify-between items-center px-12 bg-white z-50 py-6 md:py-12">
@@ -87,8 +103,9 @@ const Navbar = () => {
 
       <button
         type="button"
-        onClick={() => setIsOpen((prev) => !prev)}
+        onClick={handleClick}
         className="md:hidden"
+        aria-expanded={isOpen}
       >
         <HamburgerMenuIcon className="text-6xl" />
       </button>
