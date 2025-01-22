@@ -15,9 +15,18 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+/* export const metadata: Metadata = {
+  title: "Protocol Labs Venture Studio",
+  description: "PLVS partners with and invests in leading technology ecosystems and economies around the world that push humanity forward.",
+}; */
+
 export const metadata: Metadata = {
   title: "Protocol Labs Venture Studio",
   description: "PLVS partners with and invests in leading technology ecosystems and economies around the world that push humanity forward.",
+  icons: {
+    icon: '/plvs-black.svg', // Path to your icon in public folder
+   // apple: '/apple-touch-icon.png', // Optional: for iOS devices
+  }
 };
 
 export default function RootLayout({
