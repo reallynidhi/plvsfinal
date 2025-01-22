@@ -56,10 +56,10 @@ export const portfolioCompanies = [
     url: 'https://sodal.io/',
   },
   {
-    name: 'Toothbrush',
+    name: 'Photobase',
     logo: 'toothbrush.svg',
     description:
-      'Toothbrush is a decentralized application leveraging Filecoin, that maximizes device capacity to share and store content within a group.',
+      'Photobase is a decentralized application leveraging Filecoin, that maximizes device capacity to share and store content within a group.',
     url: 'https://www.thephotobase.com/',
   },
   {
