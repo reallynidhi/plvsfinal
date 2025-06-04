@@ -30,6 +30,12 @@ export const teamMembers = [
     linkedIn: 'https://www.linkedin.com/in/colinevran/',
   },
   {
+    name: 'Nidhi Soni',
+    role: 'Operations & Strategy Leadership',
+    image: 'nidhi.jpeg',
+    linkedIn: 'https://www.linkedin.com/in/reallynidhi/',
+  },
+  {
     name: 'Patrick Kim',
     role: 'Finance Leadership',
     image: 'patrick.png',
@@ -41,10 +47,5 @@ export const teamMembers = [
     image: 'rachel.jpeg',
     linkedIn: 'https://www.linkedin.com/in/rachelmgarcia/',
   },
-  {
-    name: 'Nidhi Soni',
-    role: 'Operations & Strategy Leadership',
-    image: 'nidhi.jpeg',
-    linkedIn: 'https://www.linkedin.com/in/reallynidhi/',
-  },
+  
 ];

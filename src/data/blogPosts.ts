@@ -1,5 +1,14 @@
 export const blogPosts = [
   {
+    date: "May 26, 2025",
+    author: "PLVS",
+    //role: 'Protocol ',
+    title: "From Ideas to Impact: Kicking off our new cohort + an open call to future founders",
+    excerpt:
+      "Come build with us.",
+    url: "/blog/new-cohort",
+  },
+  {
     date: "January 01, 2025",
     author: "PLVS",
     //role: 'Protocol ',
