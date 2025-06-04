@@ -1,14 +1,5 @@
 export const blogPosts = [
   {
-    date: "May 26, 2025",
-    author: "PLVS",
-    //role: 'Protocol ',
-    title: "From Ideas to Impact: Kicking off our new cohort + an open call to future founders",
-    excerpt:
-      "Come build with us.",
-    url: "/blog/new-cohort",
-  },
-  {
     date: "January 01, 2025",
     author: "PLVS",
     //role: 'Protocol ',
@@ -17,7 +8,18 @@ export const blogPosts = [
       "As we close out 2024 and look forward to 2025, we at Protocol Labs Venture Studio (PLVS) are excited to welcome our latest cohort of badass founders...",
     url: "/blog/a-breakthrough-year-for-pl-venture-studio",
   },
-  /*{
+
+ /* {
+    date: "May 26, 2025",
+    author: "PLVS",
+    //role: 'Protocol ',
+    title: "From Ideas to Impact: Kicking off our new cohort + an open call to future founders",
+    excerpt:
+      "Come build with us.",
+    url: "/blog/new-cohort",
+  },
+ 
+  {
     date: 'JANUARY 16, 2024',
     author: 'Protocol Labs',
     role: 'Protocol Labs',

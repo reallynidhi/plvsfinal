@@ -17,8 +17,8 @@ export const portfolioCompanies = [
     name: 'IPC BTC',
     logo: 'bsl1.svg',
     description:
-      "Bitcoin Scaling Labs bridges the Bitcoin network with Filecoin's storage capabilities, enabling seamless cross-chain collaboration.",
-    url: 'https://www.bitcoinscalinglabs.com/',
+      "InterPlanetary Consensus (IPC) BTC bridges the Bitcoin network with Filecoin's storage capabilities, enabling seamless cross-chain collaboration.",
+   // url: 'https://protocol.ai',
   },
   {
     name: 'Nova Energy',
@@ -29,7 +29,7 @@ export const portfolioCompanies = [
   },
   {
     name: 'Meridian',
-    logo: 'space.png',
+    logo: 'meridian.svg',
     description:
       'Space Meridian is a product-focused R&D lab that develops products and protocols centered around privacy, verifiability, cryptography, self-sovereignty, and resilience.',
     url: 'https://meridian.space/',
@@ -43,7 +43,7 @@ export const portfolioCompanies = [
   },
   {
     name: 'Reppo',
-    logo: 'reppo.png',
+    logo: 'reppo.svg',
     description:
       'Reppo Labs is building the foundational layer to build e2e verifiable and explainable AI',
     url: 'https://reppo.xyz/',
@@ -57,7 +57,7 @@ export const portfolioCompanies = [
   },
   {
     name: 'Photobase',
-    logo: 'toothbrush-logo.png',
+    logo: 'toothbrush.svg',
     description:
       'Photobase is a decentralized application leveraging Filecoin, that maximizes device capacity to share and store content within a group.',
     url: 'https://www.thephotobase.com/',
@@ -71,7 +71,7 @@ export const portfolioCompanies = [
   },
   {
     name: 'Storacha',
-    logo: 'storacha-bug.svg',
+    logo: 'storacha.svg',
     description:
       'Storacha is focused on high-speed decentralized caching, Storacha enhances the performance of distributed applications globally.',
     url: 'https://storacha.network/',

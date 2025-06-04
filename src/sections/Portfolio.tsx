@@ -16,28 +16,18 @@ const Portfolio = () => {
               rel="noopener noreferrer"
               className="block p-6 border rounded-lg hover:shadow-lg transition-shadow"
             >
-               <div className="relative w-36 h-24 mb-4">
-                {/* Black/Dark Version */}
+              {/* Logo container (left-aligned and bigger) */}
+              <div className="w-36 h-24 mb-4">
                 <img
                   src={`/company/${company.logo || "pl.png"}`}
                   alt={company.name}
-                  className="absolute inset-0 w-full h-full object-contain brightness-50 saturate-0 transition-opacity duration-300"
-                />
-                {/* Full-color Hover Version */}
-                <img
-                  src={`/company/${company.logo || "pl.png"}`}
-                  alt={company.name}
-                  className="relative w-full h-full object-contain opacity-0 hover:opacity-100 transition-opacity duration-300"
+                  className="w-full h-full object-contain filter grayscale hover:grayscale-0 transition"
                 />
               </div>
+
               <p className="text-sm text-gray-600">{company.description}</p>
             </a>
           ))}
-
-          {/* Add Portfolio Company Button 
-          <button className="border-2 border-dashed rounded-lg p-6 flex items-center justify-center text-gray-500 hover:text-gray-700 hover:border-gray-400 transition-colors">
-            + Add Portfolio Company
-          </button>  */}
         </div>
       </div>
     </div>
